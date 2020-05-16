@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PayProject</string>
+    <string name="real_time">2020년 05월 14일 금요일 오후 19:20</string>
+    <string name="real_date">2020년 05월 14일 금요일</string>
+    <string name="category">카테고리</string>
+
+
+    <string name="out_total">지출합계</string>
+    <string name="today">오늘</string>
+</resources>
