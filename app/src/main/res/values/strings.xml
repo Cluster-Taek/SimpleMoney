@@ -7,4 +7,9 @@
 
     <string name="out_total">지출합계</string>
     <string name="today">오늘</string>
+
+    <string name="budget">100,000</string>
+    <string name="budget_per">100%</string>
+    <string name="tv_spent_money">지금까지 사용한 돈</string>
+    <string name="tv_spent_money_lm">지난 달 사용한 돈</string>
 </resources>
