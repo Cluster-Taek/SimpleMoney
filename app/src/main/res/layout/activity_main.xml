@@ -144,28 +144,64 @@
         android:id="@+id/drawer"
         android:layout_width="200dp"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
+        android:layout_gravity="start"
         android:background="#ffffff"
-        android:layout_gravity="start">
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="23dp"
-            android:text="Drawer"
-            android:textColor="#f70"
-            android:textSize="24dp" />
-
-        <Button
-            android:id="@+id/btn_CloseDrawer"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp"
-            android:text="Close Drawer"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPageCalender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:gravity="left|center_vertical"
+                android:fontFamily="@font/spoqa"
+                android:text="@string/calendar"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPageGraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:gravity="left|center_vertical"
+                android:fontFamily="@font/spoqa"
+                android:text="@string/graph"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPageTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:gravity="left|center_vertical"
+                android:fontFamily="@font/spoqa"
+                android:text="@string/total"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPageSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:gravity="left|center_vertical"
+                android:fontFamily="@font/spoqa"
+                android:text="@string/setting"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_CloseDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_border"
+                android:text="Close Drawer" />
+        </LinearLayout>
 
     </RelativeLayout>
 
