@@ -135,6 +135,15 @@
             android:layout_weight="0.5"
             android:orientation="vertical">
 
+            <Button
+                android:id="@+id/btnPageMoney"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_border"
+                android:gravity="center"
+                android:fontFamily="@font/spoqa"
+                android:text="추가"
+                android:textSize="18sp" />
         </LinearLayout>
 
     </LinearLayout>

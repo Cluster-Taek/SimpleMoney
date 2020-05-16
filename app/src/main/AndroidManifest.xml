@@ -20,6 +20,7 @@
         <activity android:name=".PageGraph"/>
         <activity android:name=".PageTotal"/>
         <activity android:name=".PageSetting"/>
+        <activity android:name=".PageMoney"/>
     </application>
 
 </manifest>

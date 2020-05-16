@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnPageGragh;
     Button btnPageTotal;
     Button btnPageSetting;
+    Button btnPageMoney;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         btnPageGragh = (Button) findViewById(R.id.btnPageGraph);
         btnPageTotal = (Button) findViewById(R.id.btnPageTotal);
         btnPageSetting = (Button) findViewById(R.id.btnPageSetting);
+        btnPageMoney = (Button) findViewById(R.id.btnPageMoney);
 
 
         // 드로어 여는 버튼 리스너
@@ -54,6 +56,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 drawerLayout.closeDrawer(drawerView);
+            }
+        });
+
+        //추가 여는 버튼 리스너
+        btnPageMoney.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,PageMoney.class);
+                startActivity(intent);
             }
         });
 
